@@ -15,8 +15,8 @@ function divisao (x,y){
     console.log("O resultado do calculo é :",calculo)
 }
 module.exports={
-    soma:soma
-    subtracao:subtracao
-    multiplicacao:multiplicacao
-    divisao:divisao
+    soma:soma,
+    subtracao:subtracao,
+    multiplicacao:multiplicacao,
+    divisao:divisao,
 }
