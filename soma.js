@@ -1,7 +1,22 @@
 function soma (x,y){
-    let x = 10
-    let y = 5
     let calculo=(x+y)
-    console.log("O resultado docalculo é +",calculo)
+    console.log("O resultado do calculo é :",calculo)
 }
-module.exports = soma; 
+function subtracao (x,y){
+    let calculo=(x-y)
+    console.log("O resultado do calculo é :",calculo)
+}
+function multiplicacao (x,y){
+    let calculo=(x*y)
+    console.log("O resultado do calculo é :",calculo)
+}
+function divisao (x,y){
+    let calculo=(x/y)
+    console.log("O resultado do calculo é :",calculo)
+}
+module.exports={
+    soma:soma
+    subtracao:subtracao
+    multiplicacao:multiplicacao
+    divisao:divisao
+}
